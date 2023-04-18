@@ -1,0 +1,116 @@
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.font-red {
+    color: #CC3333;
+}
+
+.bg-red {
+    background-color: #CC3333;
+}
+
+.font-blue {
+    color: #2A435D;
+}
+
+.bg-blue {
+    background-color: #2A435D;
+}
+
+.font-cream {
+    color: #FFF8EE;
+}
+
+.circle {
+    border-radius: 100px;
+}
+
+.hide {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
