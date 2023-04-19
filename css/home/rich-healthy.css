@@ -1,0 +1,89 @@
+.rich-healthy {
+    width: 85%;
+    min-height: 620px;
+    margin: 0 auto;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 50px;
+}
+
+.rich-first-img {
+    height: 600px;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1/span 2;
+    align-self: flex-end;
+}
+
+.rich-main {
+    width: 70%;
+    grid-column: 2/span 3;
+    grid-row: 1;
+
+}
+
+.rich-points {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+
+}
+
+.point,
+.rich-main h3 {
+    margin: 20px 0;
+}
+
+.rich-points button {
+    color: white;
+    height: 50px;
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.rich-second-img {
+    width: 350px;
+    height: 370px;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .rich-healthy {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+
+    .rich-first-img {
+        display: none;
+    }
+
+    .rich-main {
+        grid-row: 1;
+        grid-column: 1;
+        text-align: center;
+        width: 100%;
+    }
+
+    .rich-second-img {
+        grid-row: 2;
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .rich-points {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .rich-points button {
+        width: 100%;
+    }
+
+
+}

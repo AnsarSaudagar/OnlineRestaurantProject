@@ -14,12 +14,20 @@
     font-size: 20px;
 }
 
+.fs-22 {
+    font-size: 22px;
+}
+
 .fs-25 {
     font-size: 25px;
 }
 
 .fs-35 {
     font-size: 35px;
+}
+
+.fs-30 {
+    font-size: 30px;
 }
 
 .fs-45 {
@@ -83,6 +91,10 @@
     align-items: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .font-red {
     color: #CC3333;
 }
@@ -113,4 +125,8 @@
 
 .visible {
     display: block;
+}
+
+.text-center {
+    text-align: center;
 }

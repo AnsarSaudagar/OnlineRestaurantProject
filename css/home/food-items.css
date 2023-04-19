@@ -1,0 +1,27 @@
+.food-items {
+    min-height: 200px;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.food-images {
+    margin-top: 30px;
+}
+
+.food-img {
+    width: 15%;
+}
+
+@media (max-width: 768px) {
+    .food-images {
+        flex-direction: column;
+        /* border: 1px solid red; */
+
+    }
+
+    .food-img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
