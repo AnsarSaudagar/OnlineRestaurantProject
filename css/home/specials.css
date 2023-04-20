@@ -1,0 +1,140 @@
+.specials {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.special-bar {
+    width: 100%;
+}
+
+.bar-topic {
+    height: 60px;
+    width: 20%;
+    border-right: 1px solid #2A435D;
+    cursor: pointer;
+}
+
+.bar-topic:last-child {
+    border-right: none;
+}
+
+.menu-main {
+    min-height: 660px;
+    align-items: center;
+
+}
+
+.menu-arrow {
+    height: 25px;
+    width: 25px;
+    border: 3px solid #CC3333;
+    cursor: pointer;
+}
+
+.ad-img {
+    height: 90%;
+}
+
+.breakfast-ad,
+.main-dishes {
+
+    height: 660px;
+}
+
+.breakfast-ad {
+    width: 489px;
+
+}
+
+.breakfast-ad button {
+    width: 100%;
+    height: 10%;
+    color: white;
+    border-radius: 0px;
+    background-color: #CC3333;
+}
+
+.main-dishes {
+    width: 45%;
+    justify-content: space-around;
+}
+
+.specials p:nth-child(2) {
+    margin: 20px 0;
+}
+
+.special-bar {
+    margin: 30px 0;
+}
+
+.menu-card {
+    min-height: 10%;
+    cursor: pointer;
+}
+
+.menu-card-left {
+    text-align: left;
+    width: 80%;
+    border-bottom: 2px dashed #CC3333;
+}
+
+.menu-card-right {
+    width: 20%;
+}
+
+.main-dishes button {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .special-bar {
+
+        display: grid;
+        grid-template-columns: 35% 35% 30%;
+    }
+
+    .bar-topic {
+        border: 1px solid #2A435D;
+        width: fit-content;
+        /* width: 50%; */
+        width: 100%;
+    }
+
+    .bar-topic:last-child {
+        border-right: 1px solid #2A435D;
+    }
+
+    .breakfast-ad,
+    .menu-arrow {
+        display: none;
+    }
+
+    .main-dishes {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .main-dishes:last-child {
+        display: none;
+    }
+
+    .menu-card {
+        margin: 20px 0;
+    }
+
+    .main-dishes {
+        height: fit-content;
+    }
+
+    .main-dishes button {
+        display: block;
+        width: 100%;
+        height: 60px;
+        color: white;
+        border-radius: 0px;
+        background-color: #CC3333;
+    }
+
+}

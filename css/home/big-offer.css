@@ -1,0 +1,39 @@
+.big-offer {
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.offer-line {
+    width: 110vw;
+    position: absolute;
+    top: 130px;
+    right: -100px;
+}
+
+.offer-img {
+    /* height: 200px; */
+    width: 32%;
+}
+
+
+@media (max-width: 768px) {
+
+    .big-offer {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .offer-line {
+        flex-direction: column;
+        position: static;
+        width: 100%;
+    }
+
+    .offer-img {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
