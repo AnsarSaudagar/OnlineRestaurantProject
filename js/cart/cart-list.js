@@ -11,7 +11,9 @@ const cartArr = [
     Belgiumwaffleswithchoclate: 1,
   },
 ];
-
+if(localStorage.getItem("cart-items")== null){
+  localStorage.setItem("cart-items", JSON.stringify(cartArr));
+}
 // localStorage.setItem("cart-items", JSON.stringify(cartArr));
 cartItems.forEach((item, index) => {
   const mainArr = JSON.parse(localStorage.getItem("cart-items"));
