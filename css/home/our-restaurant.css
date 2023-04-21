@@ -1,0 +1,6 @@
+.our-restaurant {
+    width: 80%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {}

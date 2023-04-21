@@ -1,0 +1,7 @@
+.cart-wishlist-top {
+    width: 100%;
+    background-image: url(../images/cart-wishlist-top.png);
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

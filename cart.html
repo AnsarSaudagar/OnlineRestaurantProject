@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Food Shop</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/cart-wishlist-top.css">
+    <link rel="stylesheet" href="css/cart/cart-list.css">
+    <link rel="stylesheet" href="css/cart/cart-subtotal.css">
+</head>
+
+<body style="background-color:white">
+    <header class="flex">
+        <div class="logo">
+            <img src="images/logo.png" alt="" class="logo">
+        </div>
+        <nav id="navbar">
+            <i id="cross-btn" class="fa fa-times" aria-hidden="true"></i>
+            <ul class="font-blue fw-500 fs-18 flex">
+                <li class="main-nav-btn"><a href="index.html">HOME</a></li>
+                <li class="main-nav-btn"><a href="">ABOUT</a></li>
+                <li class="main-nav-btn"><a href="">MENU</a></li>
+                <li class="main-nav-btn"><a href="">CONTACT</a></li>
+                <li class="main-nav-btn"><a href="wishlist.html">WISHLIST</a></li>
+
+                <li class="main-nav-btn">
+                    <a href="cart.html">
+                        <div class="wishlist circle flex column center">
+                            <p>2</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                    </a>
+
+                </li>
+                <!-- <li id="nav-ham"></li> -->
+
+            </ul>
+        </nav>
+        <i id="nav-ham" class="fa fa-bars" aria-hidden="true"></i>
+    </header>
+
+    <section class="cart-wishlist-top flex center">
+        <h2 class="fs-45  font-cream ">MY CART</h2>
+    </section>
+
+
+    <section class="cart-list">
+        <div class="cart-list-bar bg-red">
+            <div class="product flex center">
+                <p class="fs-22 font-cream ">Product</p>
+            </div>
+            <div class="product-name flex center">
+                <p class="fs-22 font-cream ">Product Name</p>
+            </div>
+            <div class="unit-price flex center">
+                <p class="fs-22 font-cream ">Unit Price</p>
+            </div>
+            <div class="quantity flex center">
+                <p class="fs-22 font-cream ">Quantity</p>
+            </div>
+            <div class="total flex center">
+                <p class="fs-22 font-cream ">Total</p>
+            </div>
+            <div class="action flex center">
+                <p class="fs-22 font-cream ">Action</p>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <div class="product-cart-item flex center">
+                <img src="images/product/belgum-waffle-strawberry.png" alt="">
+            </div>
+            <div class="product-name-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 text-center">Belgium waffles</p>
+            </div>
+            <div class="unit-price-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 text-center">$150</p>
+            </div>
+            <div class="quantity-cart-item flex center">
+                <div class="plus quantity-change flex center">
+                    <p class="fs-20 font-blue fw-700 ">+</p>
+                </div>
+                <p class="fw-700 font-blue fs-20">1</p>
+                <div class="minus quantity-change flex center">
+                    <p class="fs-20 font-blue fw-700 ">-</p>
+                </div>
+            </div>
+            <div class="total-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 ">$150</p>
+            </div>
+            <div class="action-cart-item flex center pointer">
+                <p class="fs-20 font-red fw-700 ">Remove</p>
+            </div>
+        </div>
+        <div class="cart-item">
+            <div class="product-cart-item flex center">
+                <img src="images/product/belgum-waffle-strawberry.png" alt="">
+            </div>
+            <div class="product-name-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 text-center">Belgium waffles with strawberries</p>
+            </div>
+            <div class="unit-price-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 text-center">$150</p>
+            </div>
+            <div class="quantity-cart-item flex center">
+                <div class="plus quantity-change flex center">
+                    <p class="fs-20 font-blue fw-700 ">+</p>
+                </div>
+                <p class="fw-700 font-blue fs-20">1</p>
+                <div class="minus quantity-change flex center">
+                    <p class="fs-20 font-blue fw-700 ">-</p>
+                </div>
+            </div>
+            <div class="total-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 ">$150</p>
+            </div>
+            <div class="action-cart-item flex center pointer">
+                <p class="fs-20 font-red fw-700 ">Remove</p>
+            </div>
+        </div>
+        <div class="cart-item">
+            <div class="product-cart-item flex center">
+                <img src="images/product/belgum-waffle-strawberry.png" alt="">
+            </div>
+            <div class="product-name-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 text-center">Belgium waffles with choclate</p>
+            </div>
+            <div class="unit-price-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 text-center">$150</p>
+            </div>
+            <div class="quantity-cart-item flex center">
+                <div class="plus quantity-change flex center">
+                    <p class="fs-20 font-blue fw-700 ">+</p>
+                </div>
+                <p class="fw-700 font-blue fs-20">1</p>
+                <div class="minus quantity-change flex center">
+                    <p class="fs-20 font-blue fw-700 ">-</p>
+                </div>
+            </div>
+            <div class="total-cart-item flex center">
+                <p class="fs-20 font-blue fw-700 ">$150</p>
+            </div>
+            <div class="action-cart-item flex center pointer">
+                <p class="fs-20 font-red fw-700 ">Remove</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cart-subtotal">
+        <div class="cart-subtotal-card text-center">
+            <h3 class="font-red fs-30 fw-700">CART SUB-TOTAL</h3>
+            <div class="cart-subtotal-card-row flex space-between ">
+                <p class="fs-18 font-red">Order Subtotal</p>
+                <p class="fs-18 font-red">$125.96</p>
+            </div>
+            <div class="cart-subtotal-card-row flex space-between ">
+                <p class="fs-18 font-red">Shipping</p>
+                <p class="fs-18 font-red">$125.96</p>
+            </div>
+            <div class="cart-subtotal-card-row flex space-between ">
+                <p class="fs-18 font-red">Coupon</p>
+                <p class="fs-18 font-red">$125.96</p>
+            </div>
+            <div class="cart-subtotal-card-row flex space-between ">
+                <p class="fs-18 font-red">Total</p>
+                <p class="fs-18 font-red">$125.96</p>
+            </div>
+            <button class="checkout-btn bg-red fs-18 font-cream">Proceed To Checkout</button>
+        </div>
+    </section>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/cart/cart-list.js"></script>
+    <script src="https://kit.fontawesome.com/9ba155236a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

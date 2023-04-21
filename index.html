@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/home/rich-healthy.css">
     <link rel="stylesheet" href="css/home/big-offer.css">
     <link rel="stylesheet" href="css/home/specials.css">
+    <link rel="stylesheet" href="css/home/all-time.css">
+    <link rel="stylesheet" href="css/home/our-restaurant.css">
 </head>
 
 <body>
@@ -24,14 +26,14 @@
         <nav id="navbar">
             <i id="cross-btn" class="fa fa-times" aria-hidden="true"></i>
             <ul class="font-blue fw-500 fs-18 flex">
-                <li class="main-nav-btn"><a href="">HOME</a></li>
+                <li class="main-nav-btn"><a href="index.html">HOME</a></li>
                 <li class="main-nav-btn"><a href="">ABOUT</a></li>
                 <li class="main-nav-btn"><a href="">MENU</a></li>
                 <li class="main-nav-btn"><a href="">CONTACT</a></li>
-                <li class="main-nav-btn"><a href="">WISHLIST</a></li>
+                <li class="main-nav-btn"><a href="wishlist.html">WISHLIST</a></li>
 
                 <li class="main-nav-btn">
-                    <a href="">
+                    <a href="cart.html">
                         <div class="wishlist circle flex column center">
                             <p>2</p>
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -77,7 +79,7 @@
 
     <section class="rich-healthy">
         <div class="rich-first-img">
-            <img src="images/home/rich-healthy/rich1.png" alt="">
+            <img src="../images/home/rich-healthy/rich1.png" alt="">
         </div>
         <div class="rich-main">
             <p class="font-blue fw-700 fs-18 text-center">RICH & HEALTHY</p>
@@ -133,7 +135,7 @@
         </p>
         <div class="special-main flex column">
             <div class="special-bar flex">
-                <div class="bar-topic flex center">BREAKFAST</div>
+                <div class="bar-topic flex center" id="breakfast">BREAKFAST</div>
                 <div class="bar-topic flex center">LUNCH</div>
                 <div class="bar-topic flex center">DINNER</div>
                 <div class="bar-topic flex center">STARTERS</div>
@@ -238,6 +240,79 @@
             </div>
         </div>
     </section>
+
+    <section class="all-time">
+        <h3 class="font-red fs-30 italic text-center">SPECIALS MENU FOR ALL TIME</h3>
+        <div class="all-row all-row1 flex space-between">
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/burger.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Burger</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/fried-chicken.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Fried Chicken</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/doner-grilled-chicken.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Doner with
+                    Grilled Chicken</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/pizza.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Pizza</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/hot-dogs.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Hot Dogs</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/skewers.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Chicken
+                    Skewers</p>
+            </div>
+        </div>
+        <div class="all-row all-row2 flex space-between">
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/green-salad.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Green Salad</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/dahi-puri.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Dahi Puri</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/ice-cream-choclate.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Ice Cream with Choclate</p>
+            </div>
+            <div class="all-row-item flex column">
+                <div class="all-row-item-img">
+                    <img src="images/home/all-time/cocktail-glasses.png" alt="">
+                </div>
+                <p class="text-center fs-20 font-red">Cocktail
+                    Glasses</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-restaurant"></section>
 
     <script type="module" src="js/home/special.js"></script>
     <script src="js/nav.js"></script>

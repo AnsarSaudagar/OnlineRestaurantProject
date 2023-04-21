@@ -1,0 +1,45 @@
+.cart-subtotal {
+    min-height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.cart-subtotal-card {
+    width: 50%;
+    background: #FFF8EE;
+    height: 455px;
+    margin: auto;
+}
+
+.cart-subtotal-card h3 {
+    margin: 20px 0;
+}
+
+.cart-subtotal-card-row {
+    height: 50px;
+    margin: auto;
+    width: 70%;
+    border-bottom: 2px solid #CC3333;
+    align-items: center;
+}
+
+.checkout-btn {
+    height: 60px;
+    width: 70%;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .cart-subtotal-card {
+        width: 100%;
+    }
+
+    .cart-subtotal-card h3 {
+        padding-top: 20px;
+    }
+
+    .cart-subtotal-card-row p {
+        font-size: 16px;
+    }
+}
